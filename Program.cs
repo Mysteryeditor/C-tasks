@@ -259,82 +259,82 @@ namespace tasks
         {
             static void Main(string[] args)
             {//1.Getting the list of trainees
-             //Console.WriteLine("Enter the count of trainees");
-             //int count = Convert.ToInt32(Console.ReadLine());
-             //StringBuilder sb = new StringBuilder();
-             //Console.WriteLine("Enter " + count + " trainees");
-             //for (int i = 0; i < count; i++)
-             //{
-             //    sb.AppendLine(Console.ReadLine());
-             //}
-             //Console.WriteLine("The Entered Trainees are:");
-             //Console.WriteLine(sb.ToString());
+                Console.WriteLine("Enter the count of trainees");
+                int count = Convert.ToInt32(Console.ReadLine());
+                StringBuilder sb = new StringBuilder();
+                Console.WriteLine("Enter " + count + " trainees");
+                for (int i = 0; i < count; i++)
+                {
+                    sb.AppendLine(Console.ReadLine());
+                }
+                Console.WriteLine("The Entered Trainees are:");
+                Console.WriteLine(sb.ToString());
 
-                ////task2:
-                //task2 t2 = new task2();
-                //t2.stringOperations();
+                //task2:
+                task2 t2 = new task2();
+                t2.stringOperations();
 
 
 
                 //day2 tasks
-                //day2 d2 = new day2();
-                //d2.task();
-                //d2.jaggedArray();
-                //d2.task4();
-                //d2.task5receiveData();
+                day2 d2 = new day2();
+                d2.task();
+                d2.jaggedArray();
+                d2.task4();
+                d2.task5receiveData();
 
-                //int choice;
+                int choice;
 
-                //Console.WriteLine("press 1 for int array");
-                //Console.WriteLine("Press 2 for Character Array");
-                //choice = int.Parse(Console.ReadLine());
-
-
-                //switch (choice)
-                //{
-                //    case 1:
-                //        day3Tasks<int> intObj = new day3Tasks<int>();
-                //        Console.WriteLine("Enter the size");
-                //        int size = Convert.ToInt32(Console.ReadLine());
-                //        Console.WriteLine("Enter" + size + "numbers");
-                //        int[] integerArray = new int[size];
-                //        for (int i = 0; i < size; i++)
-                //        {
-                //            integerArray[i] = int.Parse(Console.ReadLine());
-                //        }
-                //        intObj.sortArray(integerArray);
-                //        Console.WriteLine("Enter the 1st number");
-                //        int a = int.Parse(Console.ReadLine());
-                //        Console.WriteLine("Enter the 2st number");
-                //        int b=int.Parse(Console.ReadLine());
-                //        intObj.Swap(a, b);
-                //        break;
-
-                //    case 2:
-                //        day3Tasks<char> charObj = new day3Tasks<char>();
-                //        Console.WriteLine("Enter the size");
-                //        int charsize = Convert.ToInt32(Console.ReadLine());
-                //        Console.WriteLine("Enter" + charsize + "characters");
-
-                //        char[] charArray = new char[charsize];
-                //        for (int i = 0; i < charsize; i++)
-                //        {
-                //            charArray[i] = char.Parse(Console.ReadLine());
-                //        }
-                //        charObj.sortArray(charArray);
-                //        Console.WriteLine("Enter the 1st Character");
-                //        char char1 = char.Parse(Console.ReadLine());
-                //        Console.WriteLine("Enter the 2st character");
-                //        char char2 = char.Parse(Console.ReadLine());
-                //        charObj.Swap(char1, char2);
+                Console.WriteLine("press 1 for int array");
+                Console.WriteLine("Press 2 for Character Array");
+                choice = int.Parse(Console.ReadLine());
 
 
-                //        break;
+                switch (choice)
+                {
+                    case 1:
+                        day3Tasks<int> intObj = new day3Tasks<int>();
+                        Console.WriteLine("Enter the size");
+                        int size = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("Enter" + size + "numbers");
+                        int[] integerArray = new int[size];
+                        for (int i = 0; i < size; i++)
+                        {
+                            integerArray[i] = int.Parse(Console.ReadLine());
+                        }
+                        intObj.sortArray(integerArray);
+                        Console.WriteLine("Enter the 1st number");
+                        int a = int.Parse(Console.ReadLine());
+                        Console.WriteLine("Enter the 2st number");
+                        int b = int.Parse(Console.ReadLine());
+                        intObj.Swap(a, b);
+                        break;
 
-                //    default:
-                //        Console.WriteLine("Invalid Option:GOODBYE:!");
-                //        break;
-                //}
+                    case 2:
+                        day3Tasks<char> charObj = new day3Tasks<char>();
+                        Console.WriteLine("Enter the size");
+                        int charsize = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("Enter" + charsize + "characters");
+
+                        char[] charArray = new char[charsize];
+                        for (int i = 0; i < charsize; i++)
+                        {
+                            charArray[i] = char.Parse(Console.ReadLine());
+                        }
+                        charObj.sortArray(charArray);
+                        Console.WriteLine("Enter the 1st Character");
+                        char char1 = char.Parse(Console.ReadLine());
+                        Console.WriteLine("Enter the 2st character");
+                        char char2 = char.Parse(Console.ReadLine());
+                        charObj.Swap(char1, char2);
+
+
+                        break;
+
+                    default:
+                        Console.WriteLine("Invalid Option:GOODBYE:!");
+                        break;
+                }
 
                 day3subTask3<int, char, double> subTask3Obj = new day3subTask3<int, char, double>(1, 'a', 2.0d);
 
