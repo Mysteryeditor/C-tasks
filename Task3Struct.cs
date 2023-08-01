@@ -94,8 +94,8 @@ namespace tasks1
                         else { Console.WriteLine("Trainee Does not Exist"); }
                         break;
 
-                        case 5:
-                        foreach(var trainee in trainees)
+                    case 5:
+                        foreach (var trainee in trainees)
                         {
                             int count = 0;
                             if (trainee.Value.ToLower() == "present")
@@ -106,13 +106,13 @@ namespace tasks1
                                     count++;
                                     Console.WriteLine("   " + item.Key + "   " + item.Value);
                                 }
-                                Console.WriteLine("Total Present = "+count);
+                                Console.WriteLine("Total Present = " + count);
                                 Console.WriteLine();
-                                
+
                             }
                         }
                         break;
-                        case 6:
+                    case 6:
                         foreach (var trainee in trainees)
                         {
                             int count = 0;
@@ -130,7 +130,7 @@ namespace tasks1
                             }
                         }
                         break;
-                        case 7:
+                    case 7:
                         Console.WriteLine("Thank You");
                         break;
 

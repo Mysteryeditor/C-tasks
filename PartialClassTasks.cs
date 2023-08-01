@@ -21,7 +21,8 @@ namespace tasks1
     }
 
 
-    partial struct Task3 {
+    partial struct Task3
+    {
         public Task3()
         {
         }
@@ -34,6 +35,7 @@ namespace tasks1
     {
         static void Main(string[] args)
         {
+            int a = 10;
             Task1 task1Obj = new Task1();
             task1Obj.hashTableTask();
 
@@ -42,7 +44,7 @@ namespace tasks1
             task2obj.QueueTask();
             task2obj.HashSetTasks();
 
-            Task3 structobj= new Task3();
+            Task3 structobj = new Task3();
             structobj.AttendaceCalculation();
 
             Console.ReadLine();

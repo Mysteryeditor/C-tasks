@@ -33,6 +33,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>tasks1.VirtualNewClass</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -44,12 +47,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Directives.cs" />
+    <Compile Include="EnumTask.cs" />
     <Compile Include="partialClass1.cs" />
     <Compile Include="partialClass2.cs" />
     <Compile Include="PartialClassTasks.cs" />
+    <Compile Include="ProductList.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SealedClassTask.cs" />
+    <Compile Include="simpleInterest.cs" />
     <Compile Include="Task3Struct.cs" />
+    <Compile Include="TaxCalculation.cs" />
+    <Compile Include="TwoInterfaces.cs" />
+    <Compile Include="VirtualNewClass.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -89,7 +89,7 @@ namespace tasks1
             Console.WriteLine("The hash set elements are");
             foreach (int i in cubes)
             {
-                Console.Write(i+"\t");
+                Console.Write(i + "\t");
             }
         }
 
